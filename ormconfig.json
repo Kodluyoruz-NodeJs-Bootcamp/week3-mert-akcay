@@ -1,0 +1,23 @@
+{
+   "type": "mongodb",
+   "url":"mongodb+srv://mertA:M6qLq6UhlqwUN7Us@cluster0.atyww.mongodb.net/authAppTS?retryWrites=true&w=majority",
+   "useNewUrlParser": true,
+   "useUnifiedTopology":true,
+   "writeConcern": {},
+   "synchronize": true,
+   "logging": false,
+   "entities": [
+      "src/models/entity/**/*.ts"
+   ],
+   "migrations": [
+      "src/models/migration/**/*.ts"
+   ],
+   "subscribers": [
+      "src/subscriber/**/*.ts"
+   ],
+   "cli": {
+      "entitiesDir": "src/entity",
+      "migrationsDir": "src/migration",
+      "subscribersDir": "src/subscriber"
+   }
+}
