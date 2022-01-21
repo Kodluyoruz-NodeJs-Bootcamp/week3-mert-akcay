@@ -8,6 +8,7 @@
 ### After this process, every authentication-required operation can be done after comparison of browser infos and userIDs in Session, JWT and Request(cookies) 
 
 <br/>
+.env file is published intentionally for evaluation process
 <br/>
 
 ## Home Page
